@@ -14,10 +14,10 @@ for(var i=0;i<a.length;i++)
 	{
  a[i]= mysql.createConnection(
 	{
-		host: 'localhost',
-		user: 'root',
-		password:'123456',
-		database: 'test1'
+		host: 'leftover.czadizfpbybx.us-west-2.rds.amazonaws.com',
+		user: 'sumandeep',
+		password:'sumandeep',
+		database: 'leftover'
           
 
 	});
@@ -37,10 +37,10 @@ for(var i=0;i<f.length;i++)
 return a[sam];*/
 	var connection=mysql.createConnection(
 			{
-				host: 'localhost',
-				user: 'root',
-				password:'root',
-				database: 'cmpe272'	
+				host: 'leftover.czadizfpbybx.us-west-2.rds.amazonaws.com',
+				user: 'sumandeep',
+				password:'sumandeep',
+				database: 'leftover'	
 			});
 	return connection;
 };
